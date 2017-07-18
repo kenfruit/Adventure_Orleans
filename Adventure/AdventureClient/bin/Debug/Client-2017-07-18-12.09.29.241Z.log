@@ -1,0 +1,33 @@
+[2017-07-18 12:09:33.426 GMT     6	WARNING	103801	CodeGenerator	]	Exception generating code for input assemblies:
+AdventureClient, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Exception: 
+Exc level 0: System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeAssembly.get_DefinedTypes()
+   at Orleans.CodeGenerator.CodeGeneratorCommon.<GetTypesWithImplementations>b__9(Assembly _)
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Linq.Enumerable.<OfTypeIterator>d__92`1.MoveNext()
+   at Orleans.CodeGenerator.CodeGeneratorCommon.GetTypesWithImplementations(Type[] markerAttributes)
+   at Orleans.CodeGenerator.RoslynCodeGenerator.GenerateForAssemblies(List`1 assemblies, Boolean runtime)
+   at Orleans.CodeGenerator.RoslynCodeGenerator.GenerateAndLoadForAssemblies(Assembly[] inputs)
+Exc level 1: System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+Exc level 1: System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+Exc level 1: System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+Exc level 1: System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+Exc level 1: System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)	
+Exc level 0: System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeAssembly.get_DefinedTypes()
+   at Orleans.CodeGenerator.CodeGeneratorCommon.<GetTypesWithImplementations>b__9(Assembly _)
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Linq.Enumerable.<SelectManyIterator>d__16`2.MoveNext()
+   at System.Linq.Enumerable.<OfTypeIterator>d__92`1.MoveNext()
+   at Orleans.CodeGenerator.CodeGeneratorCommon.GetTypesWithImplementations(Type[] markerAttributes)
+   at Orleans.CodeGenerator.RoslynCodeGenerator.GenerateForAssemblies(List`1 assemblies, Boolean runtime)
+   at Orleans.CodeGenerator.RoslynCodeGenerator.GenerateAndLoadForAssemblies(Assembly[] inputs)
+Exc level 1: System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+Exc level 1: System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+Exc level 1: System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+Exc level 1: System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
+Exc level 1: System.IO.FileLoadException: Could not load file or assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
